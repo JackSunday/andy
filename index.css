@@ -3,57 +3,67 @@
     /* project id 2366009 */
     src: url("//at.alicdn.com/t/font_2366009_hxs9clrudj.eot");
     src: url("//at.alicdn.com/t/font_2366009_hxs9clrudj.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_2366009_hxs9clrudj.woff2") format("woff2"), url("//at.alicdn.com/t/font_2366009_hxs9clrudj.woff") format("woff"), url("//at.alicdn.com/t/font_2366009_hxs9clrudj.ttf") format("truetype"), url("//at.alicdn.com/t/font_2366009_hxs9clrudj.svg#iconfont") format("svg");
-  }
-  .ali-icon{
-      font-family: "iconfont";
-      font-size: 1.25rem;
-      font-style: normal;
-      -webkit-font-smoothing: antialiased;
-      -webkit-text-stroke-width: 0.2px;
-      -moz-osx-font-smoothing: grayscale;
-  }
-  .in-block{
-      display: inline-block;
-  }
-  .theme-container.sidebar-open .sidebar {
+}
+
+.ali-icon {
+    font-family: "iconfont";
+    font-size: 1.25rem;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.in-block {
+    display: inline-block;
+}
+
+.theme-container.sidebar-open .sidebar {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border: 0;
-  }
-  
-  .sidebar,
-  .navbar {
+}
+
+.sidebar,
+.navbar {
     z-index: 10000;
-  }
-  
-  .component-wrapper {
+}
+
+.component-wrapper {
     border: 1px solid #ebebeb;
     border-radius: 3px;
     transition: 0.2s;
-  }
-  .component-wrapper .component-wrapper-demo {
+}
+
+.component-wrapper .component-wrapper-demo {
     padding: 24px 24px 15px 24px;
-  }
-  .component-wrapper h4 {
+}
+
+.component-wrapper h4 {
     margin: 55px 0 20px;
-  }
-  .component-wrapper:hover {
+}
+
+.component-wrapper:hover {
     box-shadow: 0 0 8px 0 rgba(232, 237, 250, 0.6), 0 2px 4px 0 rgba(232, 237, 250, 0.5);
-  }
-  .component-wrapper:hover .lock-code .lock-code-word {
+}
+
+.component-wrapper:hover .lock-code .lock-code-word {
     font-size: 14px;
     transform: translateX(-40px);
     opacity: 1;
-  }
-  .component-wrapper:hover .lock-code .icon-down {
+}
+
+.component-wrapper:hover .lock-code .icon-down {
     transform: translateX(-40px);
-  }
-  .component-wrapper .code-content {
+}
+
+.component-wrapper .code-content {
     background-color: #fafafa;
     border-top: 1px solid #eaeefb;
     overflow: hidden;
     transition: height 0.2s;
-  }
-  .component-wrapper .code-content .code-content-height .code-user-desc {
+}
+
+.component-wrapper .code-content .code-content-height .code-user-desc {
     background: #ffffff;
     margin: 10px 10px 0 10px;
     padding: 5px 10px;
@@ -61,14 +71,17 @@
     line-height: 26px;
     border: 1px solid #ebebeb;
     border-radius: 3px;
-  }
-  .component-wrapper .code-content .code-content-height > pre {
+}
+
+.component-wrapper .code-content .code-content-height>pre {
     background: none;
-  }
-  .component-wrapper .code-content .code-content-height > pre > code {
+}
+
+.component-wrapper .code-content .code-content-height>pre>code {
     color: #3182bd;
-  }
-  .component-wrapper .lock-code {
+}
+
+.component-wrapper .lock-code {
     border-top: 1px solid #eaeefb;
     height: 44px;
     box-sizing: border-box;
@@ -83,39 +96,53 @@
     line-height: 44px;
     color: #d3dce6;
     text-align: center;
-  }
-  .component-wrapper .lock-code:hover {
+}
+
+.component-wrapper .lock-code:hover {
     background-color: #f9fafc;
-  }
-  .component-wrapper .lock-code:hover .lock-code-word {
+}
+
+.component-wrapper .lock-code:hover .lock-code-word {
     color: #409eff;
-  }
-  .component-wrapper .lock-code:hover .icon-down {
+}
+
+.component-wrapper .lock-code:hover .icon-down {
     fill: #409eff;
-  }
-  .component-wrapper .lock-code .icon-down {
+}
+
+.component-wrapper .lock-code .icon-down {
     transform: translateX(0px);
     transition: all 0.1s;
-  }
-  .component-wrapper .lock-code .lock-code-word {
+}
+
+.component-wrapper .lock-code .lock-code-word {
     font-size: 0px;
     margin-left: 15px;
     display: inline-block;
     transition: all 0.1s;
     opacity: 0;
-  }
-  
-  ::-webkit-scrollbar {
+}
+
+ ::-webkit-scrollbar {
     width: 8px;
     background-color: #f5f5f5;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+ ::-webkit-scrollbar-thumb {
     border-radius: 6px;
     background-color: #ccc;
-  }
-  
-  ::-webkit-scrollbar-track {
+}
+
+ ::-webkit-scrollbar-track {
     border-radius: 6px;
     background-color: #f5f5f5;
-  }
+}
+
+.attrs {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ededed;
+    display: flex;
+    justify-content: space-around;
+    line-height: 45px;
+    text-align: center;
+}
