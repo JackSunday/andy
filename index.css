@@ -138,11 +138,31 @@
     background-color: #f5f5f5;
 }
 
-.attrs {
-    margin-bottom: 5px;
-    border-bottom: 1px solid #ededed;
-    display: flex;
-    justify-content: space-around;
-    line-height: 45px;
-    text-align: center;
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.thead {
+    display: table-header-group;
+}
+
+table th {
+    border-bottom: 1px solid #dcdfe6;
+}
+
+td,
+th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt50 {
+    margin-top: 50px;
 }
